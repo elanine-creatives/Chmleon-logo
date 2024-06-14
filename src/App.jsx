@@ -8,7 +8,7 @@ export default function Viewer() {
   return (
     <Canvas shadows dpr={[1, 2]} flat camera={{ fov: 50 }}>
       <Suspense fallback={null}>
-        <Stage controls={ref} preset="rembrandt" intensity={1}  environment="city" shadows={false}>
+        <Stage controls={ref} preset="rembrandt" intensity={2}  environment="park" shadows={false}>
         false
           <Model />
         false
