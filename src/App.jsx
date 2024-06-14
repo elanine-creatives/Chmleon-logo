@@ -14,7 +14,7 @@ export default function Viewer() {
         false
         </Stage>
       </Suspense>
-      <OrbitControls ref={ref} autoRotate />
+      <OrbitControls ref={ref} autoRotate enableZoom={false} enablePan={false} />
     </Canvas>
   )
 }
